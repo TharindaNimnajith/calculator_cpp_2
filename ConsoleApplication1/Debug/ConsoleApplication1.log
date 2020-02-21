@@ -1,0 +1,28 @@
+﻿Build started 10/6/2018 11:59:34 AM.
+     1>Project "C:\Users\USER\Desktop\Working Folder\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\ConsoleApplication1.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ConsoleApplication1.cpp
+         ConsoleApplication1.cpp
+     1>c:\users\user\desktop\working folder\consoleapplication1\consoleapplication1\consoleapplication1.cpp(31): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+     1>c:\users\user\desktop\working folder\consoleapplication1\consoleapplication1\consoleapplication1.cpp(37): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+     1>c:\users\user\desktop\working folder\consoleapplication1\consoleapplication1\consoleapplication1.cpp(40): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+     1>c:\users\user\desktop\working folder\consoleapplication1\consoleapplication1\consoleapplication1.cpp(55): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+     1>c:\users\user\desktop\working folder\consoleapplication1\consoleapplication1\consoleapplication1.cpp(34): warning C4101: 'answer': unreferenced local variable
+     1>c:\users\user\desktop\working folder\consoleapplication1\consoleapplication1\consoleapplication1.cpp(68): warning C4476: 'printf' : unknown type field character '=' in format specifier
+     1>c:\users\user\desktop\working folder\consoleapplication1\consoleapplication1\consoleapplication1.cpp(94): warning C4476: 'printf' : unknown type field character '%' in format specifier
+     1>c:\users\user\desktop\working folder\consoleapplication1\consoleapplication1\consoleapplication1.cpp(94): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'double'
+     1>c:\users\user\desktop\working folder\consoleapplication1\consoleapplication1\consoleapplication1.cpp(94): warning C4474: 'printf' : too many arguments passed for format string
+         c:\users\user\desktop\working folder\consoleapplication1\consoleapplication1\consoleapplication1.cpp(94): note: placeholders and their parameters expect 2 variadic arguments, but 3 were provided
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\USER\Desktop\Working Folder\ConsoleApplication1\Debug\ConsoleApplication1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\USER\Desktop\Working Folder\ConsoleApplication1\Debug\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\USER\Desktop\Working Folder\ConsoleApplication1\Debug\ConsoleApplication1.lib" /MACHINE:X86 Debug\ConsoleApplication1.obj
+         Debug\stdafx.obj
+         ConsoleApplication1.vcxproj -> C:\Users\USER\Desktop\Working Folder\ConsoleApplication1\Debug\ConsoleApplication1.exe
+     1>Done Building Project "C:\Users\USER\Desktop\Working Folder\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.54
